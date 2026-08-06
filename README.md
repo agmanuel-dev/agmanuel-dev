@@ -15,7 +15,7 @@ Building machine learning systems and analyzing data to solve real-world problem
 **Languages:** Python • C++  
 **ML/AI:** scikit-learn • NLTK • pandas • NumPy • matplotlib • seaborn  
 **Data:** TF-IDF • NLP • Predictive Modeling • Data Visualization  
-**Tools:** Google Colab • Git/GitHub • Microsoft Excel • Gemini • ChatGPT
+**Tools:** Google Colab • GitHub • Microsoft Excel • Gemini • ChatGPT
 
 ## 📌 Featured Project
 
