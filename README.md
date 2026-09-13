@@ -30,8 +30,6 @@ Built and compared 3 ML classifiers (Naive Bayes, SVM, Logistic Regression) on 2
 - 11+ LinkedIn Learning Certifications including Critical Thinking, Leadership, Data Analysis
 
 ## 📫 Get In Touch
-
-- 📧 Email: alexgaspar1313@gmail.com
 - 💼 LinkedIn: [linkedin.com/in/alexandergasparmanuel](https://www.linkedin.com/in/alexandergasparmanuel/)
 - 🎯 Seeking AI/ML fellowships and internships
 - 🌎 Bilingual: English & Spanish
