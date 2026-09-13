@@ -1,27 +1,35 @@
 # Alexander Gaspar Manuel
 
-Applied Artificial Intelligence student at the University of Tennessee, Knoxville, Class of 2027. My projects span machine learning, natural language processing and embedded systems, using Python, C and Verilog.
+Applied Artificial Intelligence student at the University of Tennessee, Knoxville, Class of 2027. I work on coursework and projects in machine learning, language processing and embedded systems, using Python, C and Verilog. I am seeking internships and speak English and Spanish.
 
-I am seeking internships where I can contribute to software and hardware projects while developing my engineering skills. I speak English and Spanish.
+## Explore my work
 
-## Selected projects
+Each project opens with a plain-language explanation, followed by results, my contribution where confirmed, technical details and a guide to the files.
 
-| Project | Work and results |
-|---|---|
-| [IMDb sentiment benchmark](https://github.com/agmanuel-dev/imdb-sentiment-benchmark) | Compares four classifiers with separate training, validation and test sets. Validation-selected Logistic Regression achieved 89.30% accuracy on 9,915 held-out reviews using a documented custom split. |
-| [Basys 3 crash detector](https://github.com/agmanuel-dev/basys3-crash-detector) | FPGA prototype with accelerometer triggering, manual controls, OLED and LEDs. I built the manual controls and OLED functionality with AI assistance and wired the hardware. Original hardware results and unsuccessful distance-sensor integration are documented. |
-| [TM4C countdown timer](https://github.com/agmanuel-dev/tm4c-countdown-timer) | Embedded C project using GPIO, SysTick and software PWM. Includes an original hardware demo and distinguishes that recording from later source corrections. |
-| [Hamming (15,11) FPGA project](https://github.com/agmanuel-dev/hamming1511-fpga) | Verilog parity generation and single-bit error localization. The supplied simulation passes 34,816 checks across every 11-bit data word and all single-bit error positions. |
-| [Tokenizer comparison](https://github.com/agmanuel-dev/tokenizer-comparison) | Compares four tokenizers on English, Spanish and Python samples with pinned revisions and explicit limits on interpreting the small sample. |
+| Project | What it demonstrates | Where to start |
+|---|---|---|
+| [Movie-review sentiment](https://github.com/agmanuel-dev/imdb-sentiment-benchmark) | Comparing programs that classify positive and negative reviews, with separate model-selection and final-test data. | [Results and method](https://github.com/agmanuel-dev/imdb-sentiment-benchmark#technical-details) |
+| [FPGA warning prototype](https://github.com/agmanuel-dev/basys3-crash-detector) | Turning sensor motion and manual switch inputs into visible warnings on a board. | [What worked and my role](https://github.com/agmanuel-dev/basys3-crash-detector#project-outcome) |
+| [Countdown timer](https://github.com/agmanuel-dev/tm4c-countdown-timer) | A physical button-controlled display and LED fade programmed in C. | [Watch the original hardware demo](https://github.com/agmanuel-dev/tm4c-countdown-timer#hardware-demonstration) |
+| [Hamming code demonstrator](https://github.com/agmanuel-dev/hamming1511-fpga) | Locating a single corrupted bit in a digital message using check bits. | [How it works](https://github.com/agmanuel-dev/hamming1511-fpga#what-it-does) |
+| [Tokenizer comparison](https://github.com/agmanuel-dev/tokenizer-comparison) | Showing how language models split English, Spanish and code into smaller pieces. | [Comparison results](https://github.com/agmanuel-dev/tokenizer-comparison#refreshed-results) |
+| [Customer-review analysis](https://github.com/agmanuel-dev/sentiment-analysis-ml-project) | Exploring sentiment and star-rating prediction, including class imbalance and a corrected baseline comparison. | [Results and limits](https://github.com/agmanuel-dev/sentiment-analysis-ml-project#results-in-context) |
+
+## My contributions
+
+For the FPGA warning project, I built the manual controls and OLED functionality with AI assistance and personally wired the hardware to the board. I also attempted distance-sensor integration; that part did not work, and the project continued with accelerometer triggering.
+
+For the tokenizer coursework, I wrote the English sample and reflections, with assistance for the Spanish translation and understanding an exercise. Each repository's provenance notes distinguish original coursework, confirmed contributions and subsequent AI-assisted review. Original module ownership is not claimed where the record is incomplete.
 
 ## Technical experience
 
-- Languages: Python, C, Verilog
-- Machine learning and data: scikit-learn, pandas, NumPy, TF-IDF, model evaluation and visualization
-- Embedded systems: Basys 3 FPGA, TM4C123, GPIO, SPI, SysTick and hardware wiring
-- Development tools: Vivado, Keil, Jupyter notebooks and GitHub
+- Software and data: Python, scikit-learn, pandas, NumPy, TF-IDF and model evaluation.
+- Embedded work: C, Verilog, Basys 3 FPGA, TM4C123, GPIO, SPI, SysTick and hardware wiring.
+- Tools: Vivado, Keil, Jupyter notebooks and GitHub.
 
-These repositories include coursework and AI-assisted development. Project READMEs and provenance notes distinguish my contributions, original hardware results, later verification and remaining limitations.
+## Reading the evidence
+
+The movie-review benchmark records 89.30% accuracy on its documented 9,915-review test split. The Hamming simulation covers 34,816 cases. The countdown includes an original hardware recording. These are different kinds of evidence: simulations, source-level compiler checks and original board demonstrations are labeled separately, with limitations in each README.
 
 ## Contact
 
