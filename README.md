@@ -1,36 +1,31 @@
 # Alexander Gaspar Manuel
 
-Applied Artificial Intelligence student at the University of Tennessee, Knoxville, Class of 2027. I work on coursework and projects in machine learning, language processing and embedded systems, using Python, C and Verilog. I am seeking internships and speak English and Spanish.
+Applied Artificial Intelligence student at the University of Tennessee, Knoxville, Class of 2027. I build machine learning and embedded systems projects in Python, C and Verilog. Seeking internships. English and Spanish.
 
-## Explore my work
+## Projects
 
-Each project opens with a plain-language explanation, followed by results, my contribution where confirmed, technical details and a guide to the files.
+Each repository opens with a plain-language explanation, then results, technical details and a file guide.
 
 | Project | What it demonstrates | Where to start |
 |---|---|---|
-| [Movie-review sentiment](https://github.com/agmanuel-dev/imdb-sentiment-benchmark) | Comparing programs that classify positive and negative reviews, with separate model-selection and final-test data. | [Results and method](https://github.com/agmanuel-dev/imdb-sentiment-benchmark#technical-details) |
-| [FPGA warning prototype](https://github.com/agmanuel-dev/basys3-crash-detector) | Turning sensor motion and manual switch inputs into visible warnings on a board. | [What worked and my role](https://github.com/agmanuel-dev/basys3-crash-detector#project-outcome) |
-| [Countdown timer](https://github.com/agmanuel-dev/tm4c-countdown-timer) | A physical button-controlled display and LED fade programmed in C. | [Watch the original hardware demo](https://github.com/agmanuel-dev/tm4c-countdown-timer#hardware-demonstration) |
-| [Hamming code demonstrator](https://github.com/agmanuel-dev/hamming1511-fpga) | Locating a single corrupted bit in a digital message using check bits. | [How it works](https://github.com/agmanuel-dev/hamming1511-fpga#what-it-does) |
-| [Tokenizer comparison](https://github.com/agmanuel-dev/tokenizer-comparison) | Showing how language models split English, Spanish and code into smaller pieces. | [Comparison results](https://github.com/agmanuel-dev/tokenizer-comparison#refreshed-results) |
-| [Customer-review analysis](https://github.com/agmanuel-dev/sentiment-analysis-ml-project) | Exploring sentiment and star-rating prediction, including class imbalance and a corrected baseline comparison. | [Results and limits](https://github.com/agmanuel-dev/sentiment-analysis-ml-project#results-in-context) |
-
-## My contributions
-
-For the FPGA warning project, I built the manual controls and OLED functionality with AI assistance and personally wired the hardware to the board. I also attempted distance-sensor integration; that part did not work, and the project continued with accelerometer triggering.
-
-For the tokenizer coursework, I wrote the English sample and reflections, with assistance for the Spanish translation and understanding an exercise. Each repository's provenance notes distinguish original coursework, confirmed contributions and subsequent AI-assisted review. Original module ownership is not claimed where the record is incomplete.
+| [IMDb sentiment benchmark](https://github.com/agmanuel-dev/imdb-sentiment-benchmark) | Four models compared on held-out data, with model selection kept separate from final test. | Results and method |
+| [FPGA crash detector](https://github.com/agmanuel-dev/basys3-crash-detector) | Accelerometer over SPI driving a state machine, with resource, power and timing analysis. | Hardware results |
+| [TM4C countdown timer](https://github.com/agmanuel-dev/tm4c-countdown-timer) | Bare-metal C on Cortex-M4: GPIO, seven-segment output, SysTick timing and software PWM. | The hardware demo |
+| [Tokenizer comparison](https://github.com/agmanuel-dev/tokenizer-comparison) | How four language models split English, Spanish and Python, with pinned model revisions. | Comparison results |
+| [Customer-review analysis](https://github.com/agmanuel-dev/sentiment-analysis-ml-project) | Sentiment and star-rating prediction, including class imbalance and a corrected baseline. | Results and limits |
 
 ## Technical experience
 
-- Software and data: Python, scikit-learn, pandas, NumPy, TF-IDF and model evaluation.
-- Embedded work: C, Verilog, Basys 3 FPGA, TM4C123, GPIO, SPI, SysTick and hardware wiring.
-- Tools: Vivado, Keil, Jupyter notebooks and GitHub.
+**Software and data:** Python, scikit-learn, pandas, NumPy, TF-IDF, model evaluation.
+**Embedded:** C, Verilog, Basys 3 FPGA, TM4C123 Cortex-M4, GPIO, SPI, SysTick, hardware wiring.
+**Tools:** Vivado, Keil, Jupyter, Git.
 
-## Reading the evidence
+## How to read the evidence
 
-The movie-review benchmark records 89.30% accuracy on its documented 9,915-review test split. The Hamming simulation covers 34,816 cases. The countdown includes an original hardware recording. These are different kinds of evidence: simulations, source-level compiler checks and original board demonstrations are labeled separately, with limitations in each README.
+Different projects carry different kinds of proof, and each README says which it has. The IMDb benchmark reports 89.30% accuracy on a documented 9,915-review test split. The crash detector was demonstrated on a physical board and its post-implementation reports are summarized, including the fact that it does not meet timing. The countdown timer includes a recording of the hardware running. Simulation results, compiler checks and board demonstrations are labeled separately, and every README ends with its limitations.
+
+Team projects name their teams and state which parts were mine. Where a project used AI assistance, the repository's provenance notes say so.
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/alexandergasparmanuel/)
+[LinkedIn](https://www.linkedin.com/in/alexandergasparmanuel/) · alexgaspar1313@gmail.com
